@@ -1,0 +1,33 @@
+*****************************************************************************
+
+ Title  : Peavey SP disk utilities for PC.
+ Version: 1.1, freeware
+ Author : ûincent Raue   raue@huygens.rijnh.nl
+ Date   : october 27 1996
+
+*****************************************************************************
+
+1.0 Introduction
+
+This package provides the possibility to exchange Peavey SP floppy disks
+via media like internet, mail, modem, etc. This is done by writing an
+image of a SP floppy to a msdos file, transfering this file (uucoded), 
+and writing it back to a floppy.
+
+For this purpose i've written two utilities:
+
+SpRead.exe : images a SP floppy to a msdos file.
+             example: C:\> spread piano.sp
+SpWrite.exe: restores an image to a SP floppy.
+             example: C:\> spwrite piano.sp
+
+Floppydrive a: is used as default. You can add "b:" to the commandline to
+use drive b instead.
+
+
+Have fun, ûincent.
+
+             "The art of sampling is faking an instrument
+                           _at_least_ as good as the real one !"
+
+*****************************************************************************
